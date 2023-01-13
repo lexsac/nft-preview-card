@@ -57,3 +57,100 @@ p, h1, h2, h3, h4, h5, h6 {
 h1 {
     line-height: 1;
 }
+
+/* General styling */
+body {
+    background-color: var(--dark-blue-main-bg);
+    font-family: var(--font-family-main);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--dark-blue-card-bg);
+    width: 80%;
+    border-radius: 0.9375rem;
+    overflow: hidden;
+    padding: 1.6rem;
+    margin: 2rem;
+}
+
+.card-image {
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-top: 2rem;
+}
+
+.card-description {
+    color: var(--primary-soft-blue);
+    font-size: var(--font-size-body);
+    line-height: 1.625rem;
+    margin: 1rem 0;
+}
+
+.card-price {
+    color: var(--primary-cyan);
+    font-weight: var(--font-weight-bold);
+}
+
+.card-num-days {
+    color: var(--primary-soft-blue);
+}
+
+.card-info, .card-info-days, .card-info-price {
+    display: flex;
+    align-items: center;
+}
+
+.card-info {
+    justify-content: space-between;
+}
+
+.card-num-days, .card-price {
+    font-size: 0.9375rem;
+    margin-left: 0.5rem;
+}
+
+.card-creator {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.card-creator-image {
+    height: 33px;
+    width: 33px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.card-creator-name {
+    color: var(--white);
+}
+
+.card-creator p {
+    color: var(--primary-soft-blue);
+    margin-left: 1rem;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+    margin: 1rem 0;
+}
+
+/* Footer styling */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--primary-soft-blue);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
